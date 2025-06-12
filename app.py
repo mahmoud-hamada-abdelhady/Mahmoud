@@ -6,7 +6,7 @@ from PIL import Image
 from huggingface_hub import hf_hub_download
 
 # Load trained model
-model_path = hf_hub_download(repo_id="alaaayman/brain-tumor-vgg16", filename="vgg16_final_model.keras")
+model_path = hf_hub_download(repo_id="mahmoudhamada11/brain-tumor-vgg16", filename="vgg16_final_model.keras")
 
 model = load_model(model_path)
 
